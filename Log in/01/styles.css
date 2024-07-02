@@ -189,3 +189,33 @@ input:focus + label {
   text-decoration: underline;
   text-decoration-color: #1d9bf0;
 }
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px 16px;
+  }
+  .header .logo {
+    font-size: 24px;
+  }
+  .content {
+    width: 100%;
+  }
+  .content h1 {
+    margin-block: 20px;
+    font-size: 24px;
+  }
+  .primary-button,
+  .secondary-button {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  .email-log-in input {
+    font-size: 16px;
+    padding: 16px 10px;
+  }
+  input + label {
+    font-size: 16px;
+  }
+}
